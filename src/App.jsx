@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import qwerty from './assets/qwerty.jpg';
+import viteLogo from '/qqq.svg';
 import './App.css';
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
     <>
       <div>
         <h1>Ферма перепелок</h1>
-        <img width="400px" src="../public/qqq.svg" alt="Перепелка" />
+        {/* <img width="400px" src="../public/qqq" alt="Перепелка" /> */}
+        <img src={viteLogo} className="logo" alt="Vite logo" />
       </div>
       <div className="card">
         <button onClick={() => setCount(count => count + 1)}>
