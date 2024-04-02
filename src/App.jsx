@@ -1,4 +1,5 @@
 import { useState } from 'react';
+// import qwerty from './assets/qwerty.jpg';
 import './App.css';
 
 function App() {
