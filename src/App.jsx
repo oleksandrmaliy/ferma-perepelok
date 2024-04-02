@@ -9,7 +9,6 @@ function App() {
     <>
       <div>
         <h1>Ферма перепелок</h1>
-        {/* <img width="400px" src="../public/qqq" alt="Перепелка" /> */}
         <img src={viteLogo} className="logo" alt="Vite logo" />
       </div>
       <div className="card">
