@@ -9,7 +9,7 @@ function App() {
     <>
       <div>
         <h1>Ферма перепелок</h1>
-        <img width="400px" src="/src/assets/qwerty.jpg" alt="Перепелка" />
+        <img width="400px" src="../public/qwerty.jpg" alt="Перепелка" />
       </div>
       <div className="card">
         <button onClick={() => setCount(count => count + 1)}>
